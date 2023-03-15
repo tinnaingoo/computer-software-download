@@ -14,7 +14,7 @@
     height: auto;
     position: sticky;
     background: url(../image/background_black.png) ;
-    padding: 9px;
+    padding: 4px;
     top: 0;
     /*transition: background 0.5s;
     z-index: 2;*/
@@ -76,9 +76,6 @@ div.post_flex_box{
     box-shadow: 0 2px #999;
     pointer-events: none;
 }
-@font-face {
-    font-family: burmes_handwritting; src:url("font/burma_hand_writting.ttf");
-}
 
 .post_des{
     font-family: burmes_handwritting;
@@ -111,6 +108,23 @@ div.button_row{
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform; translateY(4px);
+}
+
+#my_box_container{
+    background: #E9EAF5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#my_box{
+    width: 400px;
+}
+.table{
+    width:100%;
+}
+.td{
+    text-align: center;
+    width: 30.333%;
 }
 
 #footer {
